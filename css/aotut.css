@@ -1,0 +1,29 @@
+body {
+	height: 3000px;
+	font: 0.7em Tahoma, serif;
+	background-color: #eeeeee;
+	padding: 100px;
+	padding-top: 0px;
+}
+img.card {
+	margin: 1%;
+	cursor: move;
+	float: left;
+	width:12%;
+	z-index: auto;
+	border: 1px black solid;
+}
+#box0, #box1, #box2 {
+  border: 1px black solid;
+  margin: 10px;
+  padding: 10px;
+  z-index: auto;
+  background-color: white;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+#menu {
+	clear: left;
+}
