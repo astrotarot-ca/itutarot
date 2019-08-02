@@ -10,8 +10,8 @@ img.card {
 	cursor: move;
 	float: left;
 	width:12%;
-	z-index: auto;
 	border: 1px black solid;
+	position: relative;
 }
 div.box {
   border: 1px black solid;

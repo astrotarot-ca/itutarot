@@ -25,6 +25,8 @@ function dragElement(elmnt) {
       initialX = e.clientX - xOffset;
       initialY = e.clientY - yOffset;
     }
+
+    $(elmnt).css("zIndex", "100");
   
     if (e.target === elmnt) {
       active = true;
@@ -35,6 +37,7 @@ function dragElement(elmnt) {
     initialX = currentX;
     initialY = currentY;  
     active = false;
+    $(elmnt).css("zIndex", "90");
   }
   
   function drag(e) {
