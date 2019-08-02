@@ -13,12 +13,12 @@ img.card {
 	z-index: auto;
 	border: 1px black solid;
 }
-#box0, #box1, #box2 {
+div.box {
   border: 1px black solid;
   margin: 10px;
   padding: 10px;
   z-index: auto;
-  background-color: white;
+  background-color: #dddddd;
   position: relative;
   float: left;
   width: 100%;
